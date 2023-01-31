@@ -4,37 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="estilos" type="text/css" href="/css_cv/estilo.css">
-    <title>Curriculum vitae final</title>
+    <link rel="stylesheet" href="estilos.css" >
+    <link rel="stylesheet" type="text.css" href="/html_cv/librerias/fontawesome-free-6.2.1-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Itim&family=Montserrat:ital,wght@1,400;1,900&family=Roboto:wght@100&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="pngtree-vector-cv-icon-png-image_533303.ico" />
+    <title >Curriculum vitae final</title>
 </head>
 <body>
-    <h1 class="titulos" >Curriculum Vitae</h1>
-    <img src="https://randomuser.me/api/portraits/men/84.jpg" alt="Esta es mi foto de perfil de cv">
-    <h2>Estudios y Certificaciones</h2>
-    <div class="titulos">Educacion primaria: Escuela Rural N° 14, 15 de diciembre de 2008.</div>
-    <div>Educacion secundaria: Escuela Rural Superior N°14, 15 de diciembre de 2014 -titulo: Bachillerato en Ciencias Economicas y Desarrollo Rural.</div>
-    <div>Educacion superior: Universidad Nacional de Cuyo -Ingenieria en Minas, cursando 4to año actualmente. </div>
-    <h2>Experiencia Laboral</h2>
-    <div>Actividades agronomas en el campo.</div>
-    <div>Atencion al cliente en negocio familiar.</div>
-    <div>Pasantia rentada en Empresa Multinacional AMS de extraccion de minerales.</div>
-    <h3>Informacion Personal</h3>
-    <div>Nombre: Luke </div>
-    <div>Apellido: Mckinney</div>
-    <div>Email: luke.mckinney@example.com</div>
-    <div>Telefono: (213) 845-1140</div>
-    <div>Fecha de nacimiento: 2/4/1981</div>
-    <div>Nacionalidad: Argentino</div>
-    <div>DNI: 41569525</div>
-    <Div>Direccion: 7424 Daisy Dr</Div>
-    <h3>Habilidades</h3>
-    <div>Conocimientos en Programacion, lenguajes: html5, css, java script, c, c++</div>
-    <div>Buen uso y desempeño en programas como: word, excel, powerpoint</div>
-    <div>Buen desempeño con tecnologias como, tablets, pc, notebook</div>
-    <div>Buen desempeño en trabajo de equipo y solucion de problemas</div>
-    <h3>Idiomas</h3>
-    <div>Idioma natal: Español</div>
-    <div>Ingles: Medio alto</div>
-    <div>Frances: Medio</div>
+    <div class="fondoweb">
+    <h1 class="titulocentrado" >Curriculum Vitae</h1>
+    <div class="cajafoto">
+       <p class="cajafoto"> <img src="https://randomuser.me/api/portraits/men/84.jpg" alt="Esta es mi foto de perfil de cv" width="150px"> </p>
+    </div>
+
+    <div class="cajadegrande">
+        <h2 class="titulocentrado">Estudios y Certificaciones</h2>
+        <ul>
+        <li><div class="parrafo1">Educacion primaria: Escuela Rural N° 14, 15 de diciembre de 2008. </div></li>
+        <li><div class="parrafo1">Educacion secundaria: Escuela Rural Superior N°14, 15 de diciembre de 2014 -titulo: Bachillerato en Ciencias Economicas y Desarrollo Rural. </div></li>
+        <li><div class="parrafo1">Educacion superior: Universidad Nacional de Cuyo -Ingenieria en Minas, cursando 4to año actualmente. </div></li>
+    </ul>
+        <button id="boton2" class="botona" >Mostrar informacion adicional</button>
+        <div id="par1">
+            <button id="boton3" class="botona">Mostrar menos informacion</button>
+            <h5 class="titulocentrado1">Cursos y capacitaciones adicionales</h5>
+            <p class="parrafos1"><ul><li>Curso en diseño web dictado por academy ticmas</li>
+                    <li>Curso en programacion orientado a arduino dictado por la universidad nacional de Cordoba</li>
+                    <li>Capacitacion en manejo y control de calidad de maquinaria minera</li>
+                    <li>Curso en especializacion y busqueda de zonas ricas en minerales explotables</li>
+            </ul></p>
+        </div>
+        <script src="cv.js"></script>
+    </div>
+
+    <div class="subirp">
+    
+        <h2 class="titulocentrado">Experiencia Laboral</h2>
+        <ul>
+        <li><div class="parrafo1">Actividades agronomas en el campo.</div></li>
+        <li><div class="parrafo1">Atencion al cliente en negocio familiar.</div></li>
+        <li><div class="parrafo1">Pasantia rentada en Empresa Multinacional AMS de extraccion de minerales.</div></li>
+    </ul>
+        
+        <button id="boton" class="botona" >Mostrar informacion adicional</button>
+        <div id="par">
+            <button id="boton1" class="botona">Mostrar menos informacion</button>
+            <h5 class="titulocentrado1">Otros empleos y expericias laborales</h5>
+            <p class="parrafos1"><ul><li>1 año laboral en control de calidad de produccion agricola (semillas y hortalizas)</li>
+                   <li>1 año laboral en analicis de fincas para la plantacion de viñas</li>
+                   <li>6 meses en planificacion y explotacion para la extraccion de oro en la cordillera</li>
+            </ul></p>
+        </div>
+        <script src="cv.js"></script>
+    </div>
+
+    <div class="cajada">
+        <h3 class="tituloizquierdo">Informacion Personal</h3>
+        <ul>
+        <li><div>Nombre: Luke </div></li>
+        <li><div>Apellido: Mckinney</div></li>
+        <li><div>Email: luke.mckinney@example.com</div></li>
+        <li><div>Telefono: (213) 845-1140</div></li>
+        <li><div>Fecha de nacimiento: 2/4/1981</div></li>
+        <li><div>Nacionalidad: Argentino</div></li>
+        <li><div>DNI: 41569525</div>  </li>
+        <li><Div>Direccion: 7424 Daisy Dr</Div></li>
+    </ul>
+    </div>
+
+    <div class="cajada">
+        <h3 class="tituloizquierdo">Habilidades</h3>
+        <ul>
+        <li><div>Conocimientos en Programacion, lenguajes: html5, css, java script, c, c++</div></li>
+        <li><div>Buen uso y desempeño en programas como: word, excel, powerpoint</div></li>
+        <li><div>Buen desempeño con tecnologias como, tablets, pc, notebook</div></li>
+        <li><div>Buen desempeño en trabajo de equipo y solucion de problemas</div></li>
+    </ul>
+    </div> 
+
+    <div class="cajada">
+        <h3 class="tituloizquierdo">Idiomas</h3>
+        <ul>
+        <li><div>Idioma natal: Español</div></li>
+        <li><div>Ingles: Medio alto</div></li>
+        <li><div>Frances: Medio</div></li>
+    </ul>
+    </div>
+    </div>
 </body>
 </html>

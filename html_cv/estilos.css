@@ -1,0 +1,114 @@
+/*titulo centrado*/
+.titulocentrado {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: aqua;
+    color: tomato;
+    margin: 0%;
+}
+.titulocentrado1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: aquamarine;
+    color: tomato;
+    margin: 1%;
+}
+/*color del fondo*/
+.fondoweb{
+    background-color: aqua;
+}
+/*subir parrafo*/
+.subirp{
+    font-family: 'Montserrat', sans-serif;
+    background-color: aquamarine;
+    color: black;
+    margin: 0%;
+    text-align: left;
+    width: 1200px;
+    height: 350px;
+    position: relative;
+    top: -2500;
+    left: 300px;
+}
+/*titulo del lado derecho*/
+.tituloderecho{
+    font-family: 'Montserrat', sans-serif;
+    text-align:right;
+    background-color: aqua;
+    color: tomato;
+    margin: 0%;
+
+}
+/*titulo del lado izquierdo*/
+.tituloizquierdo{
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    background-color: aquamarine;
+    color: tomato;
+    margin: 5%;
+}
+/*config titulos h2*/
+h2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: aqua;
+    color: tomato;
+}
+/*caja contenedora de informacion extensa al medio derecho de la pagina*/
+.cajadegrande{
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    width: 1200px;
+    height: 350px;
+    background-color: aquamarine;
+    position: relative;
+    left: 300px;
+    margin: 0%;
+}
+/*div de la foto*/
+.cajafoto{
+    font-family: 'Montserrat', sans-serif;
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    margin: 0%;
+}
+/*subir cajas de la derecha*/
+.cajada{
+    font-family: 'Montserrat', sans-serif;
+    width: 285px;
+    height: 285px;
+    background-color: aquamarine;
+    margin: 0%;
+    position: relative;
+    top: -685px;
+}
+ /*estilo de los parrafos de primera clase*/
+.parrafos1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    background-color: aquamarine;
+    color: black
+    
+}
+/*estilo del boton*/
+.botona{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: rgb(16, 85, 134);
+    color: rgb(255, 162, 0);
+    height: 100;
+    width: 100;
+    position: relative;
+    left: 500px;
+    border: 2%;
+
+    
+}
+/*ocultar parrafo*/
+#par {
+display: none;
+}
+#par1 {
+    display: none;
+    }
